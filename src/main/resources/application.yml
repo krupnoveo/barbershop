@@ -5,12 +5,15 @@ spring:
     enabled: false
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://localhost:5432/barbershop
+    url: jdbc:postgresql://postgresql:5432/barbershop
     password: postgres
     username: postgres
   jpa:
     hibernate:
       ddl-auto: validate
+
+  security:
+    secret-key: 1f130d14a23fcafdb54079d1b339dd42272ce54652100f69f57c6bb0f912dd81
 
 server:
   port: 8080

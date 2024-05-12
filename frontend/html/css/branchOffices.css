@@ -1,0 +1,29 @@
+.offices{
+    margin-top: 300px;
+    width: 100%;
+}
+.offices>p{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.offices ul{
+    margin: 0;
+    padding: 0;
+}
+.office{
+    display: flex;
+    width: 100%;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 2px;
+    flex-direction: row;
+    border-color: #a5ce37;
+    padding: 20px 40px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+}
+.address{
+    font-size: 40px;
+    font-weight: bolder;
+}

@@ -1,0 +1,38 @@
+.login-form{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 400px;
+}
+
+.login-form div{
+    display: flex;
+    flex-direction: column;
+}
+.input-label{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.email, .password{
+    font-size: 20px;
+    border: solid #a5ce37;
+    border-radius: 5px;
+    background: transparent;
+    padding: 10px;
+    width: 300px;
+    color: white;
+}
+.login-form button{
+    margin-top: 40px;
+    background-color: #a5ce37;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    font-weight: bolder;
+}
+.login-form div a p{
+    font-size: 14px;
+    margin-top: 20px;
+    text-align: center;
+}

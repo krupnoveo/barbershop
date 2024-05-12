@@ -1,0 +1,68 @@
+.book-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.book-container div{
+    display: flex;
+    flex-direction: column;
+}
+.office-id, .barber-id, .service-id, .time-id {
+    display: none;
+}
+.book-container div>p{
+    background-color: #a5ce37;
+    padding: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    width: 600px;
+    box-sizing: border-box;
+}
+#office-select, #barber-select, #service-select, #time-select{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    height: 200px;
+    overflow: scroll;
+}
+.office-option, .barber-option, .service-option, .time-option{
+    border-radius: 20px;
+    border: solid #a5ce37;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    cursor: pointer;
+    background-color: transparent;
+    width: 600px;
+    box-sizing: border-box;
+}
+.office-option p, .barber-option p, .service-option p, .time-option p{
+    margin: 0 0 20px;
+}
+
+.office-option p:last-child, .barber-option p:last-child, .service-option p:last-child, .time-option p:last-child{
+    margin: 0;
+}
+#service, #time, #barber {
+    display: none;
+}
+
+#book{
+    width: 300px;
+    height: 60px;
+    background-color: transparent;
+    color: white;
+    border: #a5ce37 solid;
+    border-radius: 20px;
+    align-self: center;
+    transition: all ease-in-out 0.1s;
+    cursor: pointer;
+    margin-top: 100px;
+}
+#book:hover{
+    color: black;
+    background-color: #a5ce37;
+}
